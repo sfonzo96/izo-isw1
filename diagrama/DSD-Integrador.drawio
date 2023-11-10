@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" modified="2023-11-10T19:53:19.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="u3G7WsW18A26j1pVUQSv" version="22.1.0" type="google">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PkigPfun2DLudA98SsDK-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;registrarEnDb(&lt;span style=&quot;font-family: Verdana; background-color: rgb(251, 251, 251);&quot;&gt;datosPaso&lt;/span&gt;)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-13">
+          <mxGeometry x="0.0084" width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="377" as="sourcePoint" />
+            <mxPoint x="630" y="377" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-2" value="cp:ControladorPrincipal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="160" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="75" y="105" width="10" height="495" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-25" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;create(datosPaso)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="7baba1c4bc27f4b0-2" target="PkigPfun2DLudA98SsDK-26">
+          <mxGeometry x="0.0008" width="80" relative="1" as="geometry">
+            <mxPoint x="85" y="170" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-3" value="apiDb:ApiDb" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="45" y="297" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-4" value="apiImpresora:ApiImpresora" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="950" y="80" width="190" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="90" y="536" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-26" value="detección:Detección" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="140" y="90" width="130" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-8" value=":Cámara" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-30" value="&amp;lt;&amp;lt;null&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="680" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="549.5" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-11" value="detectarVehículo(idCámara, patente, velocidad, fecha, hora)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="7baba1c4bc27f4b0-10">
+          <mxGeometry x="-0.0015" relative="1" as="geometry">
+            <mxPoint x="150" y="184.9999999999999" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-1" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="327" width="1160" height="343" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-2" value="[velocidad &amp;gt; 70]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="327" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-4" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="427" width="1140" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;null&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.878;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.002" relative="1" as="geometry">
+            <mxPoint x="869.5" y="407.05999999999995" as="sourcePoint" />
+            <mxPoint x="553.78" y="407.05999999999995" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-7" value="[velocidad &amp;lt; 100]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="432" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-11" value="datosPaso = {idCámara, patente, &lt;br&gt;velocidad, fechaCaptura, horaCaptura}" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-2" target="PkigPfun2DLudA98SsDK-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="192.27" as="sourcePoint" />
+            <mxPoint x="580" y="184.99727272727276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-17" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="580" width="590" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-18" value="[Repetir 3 veces]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="580" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-20" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;imprimir(&lt;span style=&quot;font-family: Verdana; background-color: rgb(251, 251, 251);&quot;&gt;datosPaso&lt;/span&gt;)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.156;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0059" width="80" relative="1" as="geometry">
+            <mxPoint x="555" y="616.9000000000001" as="sourcePoint" />
+            <mxPoint x="1041.56" y="616.9000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;null&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.878;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.002" relative="1" as="geometry">
+            <mxPoint x="1044.5" y="635.5" as="sourcePoint" />
+            <mxPoint x="553" y="635.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-23" value="&amp;lt;&amp;lt;multiobjetos&amp;gt;&amp;gt;detecciones:Detección" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="80" width="310" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;enviarCorreo(detección ,&quot;alertas@ciudad&quot;)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="PkigPfun2DLudA98SsDK-23">
+          <mxGeometry x="0.0084" width="80" relative="1" as="geometry">
+            <mxPoint x="-595" y="460" as="sourcePoint" />
+            <mxPoint x="414" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-38" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;null&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="PkigPfun2DLudA98SsDK-23">
+          <mxGeometry x="0.002" relative="1" as="geometry">
+            <mxPoint x="410" y="479.28" as="sourcePoint" />
+            <mxPoint x="-595" y="479.28" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PkigPfun2DLudA98SsDK-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-680" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="433.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8kiEA7e41RZ58SMdhSI-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="PkigPfun2DLudA98SsDK-23">
+          <mxGeometry x="150" y="210" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-28" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;add(detección)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="PkigPfun2DLudA98SsDK-23">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="556" y="290" as="sourcePoint" />
+            <mxPoint x="1155" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;null&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.878;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.002" relative="1" as="geometry">
+            <mxPoint x="1300" y="312" as="sourcePoint" />
+            <mxPoint x="555" y="311.99999999999994" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-30" value="apiCorreo:ApiCorreo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="80" width="190" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="PkigPfun2DLudA98SsDK-30">
+          <mxGeometry x="90" y="460" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="PkigPfun2DLudA98SsDK-30">
+          <mxGeometry x="90" y="393" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;enviarCorreo(detección ,&quot;avisos@ciudad&quot;)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0084" width="80" relative="1" as="geometry">
+            <mxPoint x="555" y="473" as="sourcePoint" />
+            <mxPoint x="1564.4999999999995" y="473" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkigPfun2DLudA98SsDK-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;null&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.002" relative="1" as="geometry">
+            <mxPoint x="1560" y="495" as="sourcePoint" />
+            <mxPoint x="555" y="495" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
